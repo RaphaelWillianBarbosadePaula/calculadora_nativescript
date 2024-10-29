@@ -1,0 +1,22 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page">
+    <ActionBar>
+        <Label text="Calculadora" />
+    </ActionBar>
+    
+    <StackLayout class="p-20">
+        <TextField id="input1" hint="Número 1" keyboardType="number" text="{{ input1 }}" />
+        <TextField hint="Número 2" keyboardType="number" text="{{ input2 }}" />
+
+        <StackLayout>
+            <FlexboxLayout class="buttons-container" justifyContent="space-between">
+                <Button text="+" tap="{{ onAdd }}" />
+                <Button text="-" tap="{{ onSubtract }}" />
+                <Button text="×" tap="{{ onMultiply }}" />
+                <Button text="÷" tap="{{ onDivide }}" />
+            </FlexboxLayout>
+        </StackLayout>
+
+        <Label text="Resultado:" class="h2 text-center m-t-20" />
+        <Label text="{{ result }}" class="h1 text-center" />
+    </StackLayout>
+</Page>
