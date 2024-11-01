@@ -2,7 +2,7 @@
     <ActionBar>
         <Label text="Calculadora" />
     </ActionBar>
-    
+
     <StackLayout class="p-20">
         <TextField id="input1" hint="Número 1" keyboardType="number" text="{{ input1 }}" />
         <TextField hint="Número 2" keyboardType="number" text="{{ input2 }}" />
@@ -18,5 +18,6 @@
 
         <Label text="Resultado:" class="h2 text-center m-t-20" />
         <Label text="{{ result }}" class="h1 text-center" />
+        <Button text="Limpar" tap="{{ onClear }}" />
     </StackLayout>
 </Page>

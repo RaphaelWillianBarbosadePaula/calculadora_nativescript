@@ -3,6 +3,10 @@ const { Observable } = require("@nativescript/core");
 function createViewModel() {
   const viewModel = new Observable();
 
+  viewModel.set("input1", "");
+  viewModel.set("input2", "");
+  viewModel.set("result", "");
+
   viewModel.onAdd = function () {
     const num1 = parseFloat(viewModel.input1);
     const num2 = parseFloat(viewModel.input2);
@@ -29,6 +33,12 @@ function createViewModel() {
     } else {
       viewModel.set("result", "Erro: Divisão por zero");
     }
+  };
+
+  viewModel.onClear = function () {
+    viewModel.set("input1", "");
+    viewModel.set("input2", "");
+    viewModel.set("result", "");
   };
 
   return viewModel;
