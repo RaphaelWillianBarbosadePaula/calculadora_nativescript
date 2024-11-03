@@ -18,6 +18,6 @@
 
         <Label text="Resultado:" class="h2 text-center m-t-20" />
         <Label text="{{ result }}" class="h1 text-center" />
-        <Button text="Limpar" tap="{{ onClear }}" />
+        <Button text="Limpar" tap="{{ onClear }}" class="btn-limpar"/>
     </StackLayout>
 </Page>

@@ -24,3 +24,15 @@ TextField {
   border-radius: 80px; /* Define o border-radius para a metade do tamanho (40px) */
   text-align: center;
 }
+
+.buttons-container Button:active {
+  background-color: lightblue;
+}
+
+.btn-limpar {
+  border-width: 1;
+  border-radius: 10;
+  border-color: aquamarine;
+  font-size: 16px;
+  color: black;
+}
