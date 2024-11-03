@@ -1,0 +1,38 @@
+﻿@import "@nativescript/theme/css/core.css";
+@import "@nativescript/theme/css/default.css";
+
+TextField {
+  border-width: 1;
+  border-color: #000000;
+  border-radius: 10;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.buttons-container {
+  margin-top: 10px;
+  width: 90%; /* Ajusta a largura do container para 90% da tela */
+  justify-content: space-between; /* Espaçamento entre os botões */
+}
+
+.buttons-container Button {
+  width: 80px; /* Define largura e altura iguais para fazer o botão ficar redondo */
+  height: 80px;
+  margin: 5px; /* Espaço entre os botões */
+  font-size: 24px;
+  background-color: aquamarine;
+  border-radius: 80px; /* Define o border-radius para a metade do tamanho (40px) */
+  text-align: center;
+}
+
+.buttons-container Button:active {
+  background-color: lightblue;
+}
+
+.btn-limpar {
+  border-width: 1;
+  border-radius: 10;
+  border-color: aquamarine;
+  font-size: 16px;
+  color: black;
+}
