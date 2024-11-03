@@ -16,6 +16,7 @@ Este projeto foi realizado com intuito didático para aprender sobre este framew
 - [NativeScript](https://nativescript.org/) - Framework de desenvolvimento.
 - [Node](https://nodejs.org/pt) - Instalação do framework e suas dependências.
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de programação.
+- [TypeScript](https://www.typescriptlang.org/ ) - Linguagem de programação.
 
 ## Créditos
 
